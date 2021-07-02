@@ -29,6 +29,7 @@
     text-align: center;
     margin-top: 3rem;
     height: calc(100% - 35vh);
+    overflow-y: scroll;
 }
 .box-body li {
     margin: 1rem;
