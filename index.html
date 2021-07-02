@@ -17,7 +17,7 @@
             <!-- lista email random -->
             <div>..Una lista di email Random:</div>
             <ul>
-                <li v-for="items in emailList">{{items}}</li>
+                <li v-for="items in emailList" v-if="emailList.length == 10">{{items}}</li>
             </ul>
             
         </div>
